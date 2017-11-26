@@ -68,7 +68,7 @@ class NN:
         self.loss_func = func
         self.n = []
         self.n = self.n + [num_in];
-        self.n = self.n + [num_hid];
+        self.n = self.n + num_hid;
         self.n = self.n + [num_out];
         self.y = []
         self.eta = []
